@@ -13,14 +13,14 @@ A secure, browser-based terminal for Laravel applications. Run Artisan, Git, Com
 - 🛡️ **Command blacklist** — blocks dangerous commands like `rm -rf /`
 - 🕹️ **Command history** — navigate previous commands with arrow keys
 - ✏️ **Customisable** — publish config, views and migrations to override anything
-- 🚀 Compatible with Laravel 9, 10 and 11
+- 🚀 Compatible with Laravel 9, 10, 11, 12 and 13
 
 ---
 
 ## Requirements
 
-- PHP 8.0+
-- Laravel 9.x / 10.x / 11.x
+- PHP 8.1+
+- Laravel 9.x / 10.x / 11.x / 12.x / 13.x
 - `proc_open` or `shell_exec` enabled on your server (for shell commands)
 
 > **Note:** Artisan commands work even if `shell_exec` is disabled, since they run in-process.
