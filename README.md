@@ -72,6 +72,26 @@ Log in with your Laravel account, paste your token when prompted, and you're in.
 
 ---
 
+## Publishing
+
+You can publish various parts of the package for customisation:
+
+```bash
+# Publish everything
+php artisan vendor:publish --provider="Zowesoft\WebTerminal\WebTerminalServiceProvider"
+
+# Publish only the config file
+php artisan vendor:publish --tag=web-terminal-config
+
+# Publish only the views (UI)
+php artisan vendor:publish --tag=web-terminal-views
+
+# Publish only the migrations
+php artisan vendor:publish --tag=web-terminal-migrations
+```
+
+---
+
 ## Configuration
 
 Publish the config file to customise behaviour:
