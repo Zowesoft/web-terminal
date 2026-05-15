@@ -32,7 +32,7 @@ A secure, browser-based terminal for Laravel applications. Run Artisan, Git, Com
 ### 1. Install via Composer
 
 ```bash
-composer require yourname/web-terminal
+composer require Zowesoft/web-terminal
 ```
 
 ### 2. Publish and run the migration

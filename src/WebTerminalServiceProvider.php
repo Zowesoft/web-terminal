@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\WebTerminal;
+namespace Zowesoft\WebTerminal;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
@@ -12,7 +12,7 @@ class WebTerminalServiceProvider extends ServiceProvider
         // Register the terminal access middleware
         $router->aliasMiddleware(
             'terminal.access',
-            \Yourname\WebTerminal\Http\Middleware\TerminalAccess::class
+            \Zowesoft\WebTerminal\Http\Middleware\TerminalAccess::class
         );
 
         // Load package routes

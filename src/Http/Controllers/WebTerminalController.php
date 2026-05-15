@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\WebTerminal\Http\Controllers;
+namespace Zowesoft\WebTerminal\Http\Controllers;
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;

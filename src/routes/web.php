@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Yourname\WebTerminal\Http\Controllers\WebTerminalController;
+use Zowesoft\WebTerminal\Http\Controllers\WebTerminalController;
 
 $prefix     = config('web-terminal.prefix', 'admin');
 $middleware = config('web-terminal.middleware', ['web', 'auth']);

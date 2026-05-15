@@ -1,14 +1,14 @@
 {
-    "name": "yourname/web-terminal",
+    "name": "zowesoft/web-terminal",
     "description": "A secure web-based terminal for Laravel applications — run Artisan, Git, Composer and shell commands from the browser.",
     "type": "library",
     "license": "MIT",
     "keywords": ["laravel", "terminal", "artisan", "git", "web-terminal", "shell"],
-    "homepage": "https://github.com/yourname/web-terminal",
+    "homepage": "https://github.com/Zowesoft/web-terminal",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "you@example.com"
+            "name": "Zowesoft",
+            "email": "zowesoftware@gmail.com"
         }
     ],
     "require": {
@@ -24,18 +24,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Yourname\\WebTerminal\\": "src/"
+            "Zowesoft\\WebTerminal\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yourname\\WebTerminal\\Tests\\": "tests/"
+            "Zowesoft\\WebTerminal\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yourname\\WebTerminal\\WebTerminalServiceProvider"
+                "Zowesoft\\WebTerminal\\WebTerminalServiceProvider"
             ]
         }
     },

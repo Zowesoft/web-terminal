@@ -1,6 +1,6 @@
 <?php
 
-namespace Yourname\WebTerminal\Http\Middleware;
+namespace Zowesoft\WebTerminal\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
