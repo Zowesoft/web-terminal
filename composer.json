@@ -1,0 +1,44 @@
+{
+    "name": "yourname/web-terminal",
+    "description": "A secure web-based terminal for Laravel applications — run Artisan, Git, Composer and shell commands from the browser.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "terminal", "artisan", "git", "web-terminal", "shell"],
+    "homepage": "https://github.com/yourname/web-terminal",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "you@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "illuminate/routing": "^9.0|^10.0|^11.0",
+        "illuminate/http": "^9.0|^10.0|^11.0",
+        "symfony/process": "^6.0|^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.0|^8.0|^9.0",
+        "phpunit/phpunit": "^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yourname\\WebTerminal\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yourname\\WebTerminal\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yourname\\WebTerminal\\WebTerminalServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
